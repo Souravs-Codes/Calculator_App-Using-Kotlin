@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#676565"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -63,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:columnCount="4"
+            android:background="#998E8E"
             android:padding="16dp"
             android:rowCount="5"
             >
@@ -73,6 +74,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:text="C"
+                android:textSize="40dp"
                 android:background="@drawable/button_clear_background"/>
 
             <Button android:id="@+id/button_Modulus"
@@ -81,11 +83,13 @@
                 android:elevation="6dp"
                 android:layout_rowWeight="1"
                 android:text="%"
+                android:textSize="40dp"
                 android:background="@drawable/button_operator_bachground"/>
             <Button android:id="@+id/button_Divide"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
+                android:textSize="50dp"
                 android:layout_rowWeight="1"
                 android:text="÷"
                 android:background="@drawable/button_operator_bachground"/>
@@ -94,7 +98,8 @@
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
                 android:layout_rowWeight="1"
-                android:text="<--"
+                android:text="Del"
+                android:textSize="20dp"
                 android:background="@drawable/button_operator_bachground"/>
             <!---Row 2-->
             <Button android:id="@+id/button_7"
@@ -102,6 +107,7 @@
                 android:elevation="6dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
+                android:textSize="35dp"
                 android:text="7"
                 android:background="@drawable/button_background"/>
 
@@ -109,6 +115,7 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
+                android:textSize="35dp"
                 android:layout_rowWeight="1"
                 android:text="8"
                 android:background="@drawable/button_background"/>
@@ -117,6 +124,7 @@
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
                 android:layout_rowWeight="1"
+                android:textSize="35dp"
                 android:text="9"
                 android:background="@drawable/button_background"/>
             <Button android:id="@+id/button_multiply"
@@ -124,6 +132,7 @@
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
                 android:layout_rowWeight="1"
+                android:textSize="40dp"
                 android:text="X"
                 android:background="@drawable/button_operator_bachground"/>
             <!---Row 3-->
@@ -131,6 +140,7 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
+                android:textSize="35dp"
                 android:layout_rowWeight="1"
                 android:text="4"
                 android:background="@drawable/button_background"/>
@@ -140,6 +150,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:elevation="6dp"
+                android:textSize="35dp"
                 android:text="5"
                 android:background="@drawable/button_background"/>
             <Button android:id="@+id/button_6"
@@ -148,13 +159,15 @@
                 android:elevation="6dp"
                 android:layout_rowWeight="1"
                 android:text="6"
+                android:textSize="35dp"
                 android:background="@drawable/button_background"/>
             <Button android:id="@+id/button_minus"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
+                android:textSize="50dp"
                 android:layout_rowWeight="1"
-                android:text="-"
+                android:text="−"
                 android:background="@drawable/button_operator_bachground"/>
 
             <!---Row 4-->
@@ -164,12 +177,14 @@
                 android:elevation="6dp"
                 android:layout_rowWeight="1"
                 android:text="1"
+                android:textSize="35dp"
                 android:background="@drawable/button_background"/>
 
             <Button android:id="@+id/button_2"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:elevation="6dp"
+                android:textSize="35dp"
                 android:layout_rowWeight="1"
                 android:text="2"
                 android:background="@drawable/button_background"/>
@@ -178,12 +193,14 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:elevation="6dp"
+                android:textSize="35dp"
                 android:text="3"
                 android:background="@drawable/button_background"/>
             <Button android:id="@+id/button_add"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
+                android:textSize="50dp"
                 android:elevation="6dp"
                 android:text="+"
                 android:background="@drawable/button_operator_bachground"/>
@@ -193,6 +210,7 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
+                android:textSize="35dp"
                 android:text="00"
                 android:elevation="6dp"
                 android:background="@drawable/button_background"/>
@@ -201,6 +219,7 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
+                android:textSize="35dp"
                 android:elevation="6dp"
                 android:text="0"
                 android:background="@drawable/button_background"/>
@@ -208,6 +227,7 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
+                android:textSize="35dp"
                 android:elevation="6dp"
                 android:text="."
                 android:background="@drawable/button_background"/>
@@ -215,6 +235,7 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
+                android:textSize="50dp"
                 android:elevation="6dp"
                 android:text="="
                 android:background="@drawable/button_equal_background"/>
